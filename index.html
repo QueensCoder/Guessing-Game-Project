@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type='text/css'href="bootstrap.css">
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   
+  </head>
+  <style>
+    #player-input {
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+        font-size: 60px;
+}
+
+#numberPrompt {
+    color: lime;
+}
+  
+  #submit {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 110px;
+        left: 110px;
+  
+  }
+  
+  #input-parent {
+      width: 160px;
+      margin: 5% auto 50px;
+      position: relative;
+  }
+
+  </style>  
+  
+  <body>
+    
+    </ul>
+      <div class=''>
+          
+        </div>
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 class="h1">Play the Guessing Game!</h1>
+          <h5 class='h1'>Guess a number between 1-100</h5>
+
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+         <h4 id='numberPrompt'>Enter Your Number Below</h4>
+          <input id='player-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus id='input-parent'></input>
+          <button type='button' class='btn btn-danger btn-lg' id='submit'>Go!</button>
+       
+            
+            
+          </div>
+
+          <div id='guesses'>
+          
+            <ul>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+              
+ 
+          </div>
+
+          <div id="menu-btns">
+         
+             <button type='button' class='btn btn-primary'>Reset</button>
+            <button type='button' class='btn btn-success'>Hint?</button>
+          </div>
+        </div>
+      </div>
+
+
+    <div id='footer' class='center container-fluid'>
+       
+        <div>
+          <div class='row'>
+              <div class='col-sm-4'> 
+          <img src='fa-logo@2x.png'></img>
+            </div>
+            <div class='col-sm-4'> 
+                <h4 class='h1'>Guessing Game Project by Ozal Khan</h4>
+                </div>
+                <div class ='col-sm-4'><img src='grace_hopper_academy.png'></img>
+                </div>
+          </div>
+
+
+          
+        </div>
+    </div>
+
+  </body>
+</html>
