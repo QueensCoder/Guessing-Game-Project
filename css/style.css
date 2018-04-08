@@ -1,0 +1,90 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/matrix.jpg');
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+#footer {
+ 
+    width: 100%;
+    background-color: lime;
+  
+    bottom: 0;
+    position: fixed;
+}
+
+#headers {
+  margin-top: 5%;
+ 
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+.guess {
+  background-color: lime;
+  border-radius: 15%;
+  display: inline;
+  font-size: 60px;
+  padding: 0 25px;
+}
+
+#input-parent {
+  margin: 5% auto;
+  position: relative;
+  width: 160px;
+}
+
+#player-input {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  font-size: 60px;
+}
+
+#submit {
+  border-radius: 50%;
+
+  height: 60px;
+  width: 60px;
+
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+#headers {
+  background-color: black;
+  border: solid 1px white;
+  border-radius: 20px;
+  color: lime;
+}
+
+@media (max-width: 767px) {
+  #footer {
+    display: none;
+  }
+}
+
